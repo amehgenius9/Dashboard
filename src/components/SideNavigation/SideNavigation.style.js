@@ -1,12 +1,12 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-const navWidth = 275
+const navWidth = 250
 
 export const useStyle = makeStyles ({
     root: {
         width: navWidth,
-        borderRight: "1px solid grey",
-        height: "100%",
+        borderRight: "1px solid #E3E3E3",
+        height: "100vh",
         display: "flex",
         flexDirection: "row",
     },

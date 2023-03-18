@@ -2,12 +2,12 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyle = makeStyles ({
     root: {
-        background: "#FFFFFF",
-        width: "100%",
+        width: "30%",
         height: "100%",
         display: "flex",
-        justifyContent: "space-between",
-        flexDirection: "row",
-        padding: "20px 30px"
+        flexDirection: "column",
+        alignItems: "center",
+        padding: "0 20px",
+        gap: 15
     },
 })

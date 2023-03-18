@@ -1,7 +1,8 @@
 import React from 'react'
-import { useStyle } from '../Header/Header.style'
+import { useStyle } from '../AppBar/AppBar.style'
 import img from '../../assets/search icon.svg'
 import { Box } from '@material-ui/core';
+
 
 
 const SearchIcon = () => {

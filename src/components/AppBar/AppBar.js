@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box } from '@material-ui/core'
-import { useStyle } from './Header.style'
+import { useStyle } from './AppBar.style'
 import HeaderDropdown from '../HeaderDropdown';
 import HeaderButton from '../HeaderButton';
 
