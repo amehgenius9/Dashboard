@@ -1,5 +1,6 @@
 import { Box } from '@material-ui/core'
 import React from 'react'
+import DashboardWalletDetails from '../DashboardWalletDetails';
 import DashboardWalletStatus from '../DashboardWalletStatus';
 import { useStyle } from './DashboardWallet.style'
 
@@ -8,6 +9,7 @@ const DashboardWallet = () => {
   return (
     <Box className={classes.root}>
       <DashboardWalletStatus />
+      <DashboardWalletDetails description='your wallet & bank account' number='0123456789' bank='city bank' />
     </Box>
   )
 }
