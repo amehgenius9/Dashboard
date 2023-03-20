@@ -10,6 +10,9 @@ export const useStyle = makeStyles ({
         alignItems: 'center',
         flexDirection: "row",
         borderBottom: "1px solid #E0E0E0",
-        padding: "0 20px"
+        padding: "0 20px",
+        position: "fixed",
+        top: 0,
+        zIndex: 100,
     },
 })

@@ -2,19 +2,21 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyle = makeStyles ({
     root: {
-        width: "100%"
+        width: "100%",
+        color: "#011B60",
+
     },
     header: {
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-around",
         paddingBottom: 20,
-        fontWeight: "bold",
         textTransform: "uppercase",
     },
     h1: {
-        fontWeight: "bold",
-        fontSize: 14
+        fontSize: 14,
+        fontWeight: "500",
+        wordSpacing: 5
     },
     main: {
         display: "flex",
@@ -30,7 +32,6 @@ export const useStyle = makeStyles ({
         display: "flex",
         alignItems: "center",
         gap: 10,
-        color: "#011B60",
 
     }, 
     walletMangt: {

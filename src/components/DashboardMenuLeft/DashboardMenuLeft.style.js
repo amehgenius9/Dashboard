@@ -5,7 +5,7 @@ export const useStyle = makeStyles ({
         display: "flex",
         flexDirection: "column",
         width: "70%",
-        height: "100%",
+        height: "100vh",
         gap: 15
     },
 })

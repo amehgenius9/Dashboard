@@ -20,12 +20,14 @@ export const useStyle = makeStyles ({
     topHeader: {
         height: 50,
         width: "200px",
-        display: "grid",
-        placeContent: "center",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
         fontWeight: "bold",
         color: "#011B69",
-        margin: "0 0 0 45px",
+        marginLeft: "45px",
         borderBottom: "1px solid #E0E0E0",
+        position: "fixed",
         '&:hover': {
             backgroundColor: "#011B69",
             cursor: "pointer",
@@ -40,5 +42,6 @@ export const useStyle = makeStyles ({
         gap: 10,
         cursor: "pointer",
         margin: "5px 0",
+        marginTop: 20
     }
 })

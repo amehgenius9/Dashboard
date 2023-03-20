@@ -5,10 +5,13 @@ const navWidth = 250
 export const useStyle = makeStyles ({
     root: {
         width: navWidth,
-        borderRight: "1px solid #E3E3E3",
-        height: "100vh",
+        // borderRight: "1px solid #E3E3E3",
+        // height: "100vh",
         display: "flex",
         flexDirection: "row",
+        height: "100vh",
+        overflow: "hidden",
+        overflowY: "scroll",
     },
 
 
@@ -19,6 +22,7 @@ export const useStyle = makeStyles ({
         border: "1px solid #E0E0E0",
         borderRadius: 100,
         color: "#FD6920",
+        overflow: "scroll"
 
     }
 })

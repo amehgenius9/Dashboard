@@ -8,6 +8,6 @@ export const useStyle = makeStyles ({
         display: "flex",
         justifyContent: "space-between",
         flexDirection: "row",
-        padding: "20px 30px",
+        padding: "20px 30px 0 30px",
     },
 })

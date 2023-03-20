@@ -7,8 +7,11 @@ function SidebarContent() {
     const classes = useStyle()
   return (
     <Box>
-      <Typography variant='paragraph' className={classes.topHeader}>Amstrong Enterprise</Typography>
-      {contents.map((section, index) => (
+        <Box>
+        <Typography variant='paragraph' className={classes.topHeader}>Amstrong Enterprise</Typography>
+        </Box>
+        <Box>
+            {contents.map((section, index) => (
                 <Box className={classes.root} key={index}>
                     {section.map((item, index) => (
                         item.type === "link" ? (
@@ -22,6 +25,7 @@ function SidebarContent() {
                     ))}
                 </Box>
             ))}
+        </Box>
     </Box>
   );
 }
