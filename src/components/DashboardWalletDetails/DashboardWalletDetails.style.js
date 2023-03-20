@@ -7,9 +7,30 @@ export const useStyle = makeStyles ({
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        margin: 0,
+        textTransform: "capitalize",
+        color: "#011B60",
+        fontSize: 20,    },
+    child2: {
+        fontSize: 30,
+        fontWeight: "bold",
+        marginBottom: 0,
+        display: "flex",
+        gap: 50
     },
-    child: {
+    child3: {
+        margin: 0
+    },
+    icon: {
+        backgroundColor: "#FD6820",
+        borderRadius: 100,
+        display: "flex",
+        transform: "rotate(120deg)",
+        fontSize: 10,
+        cursor: "pointer",
+    },
+    iconChild: {
+        width: 30,
+
     }
     
 })

@@ -2,12 +2,25 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyle = makeStyles ({
     root: {
-        width: "100%",
-        height: "100%",
+        width: "100%"
+    },
+    header: {
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-around",
+        paddingBottom: 20,
+        fontWeight: "bold",
+        textTransform: "uppercase",
+    },
+    h1: {
+        fontWeight: "bold",
+        fontSize: 14
+    },
+    main: {
         display: "flex",
         flexDirection: "column",
         backgroundColor: "#F4F5F9",
-        padding: "30px 20px 20px 20px"
+        padding: "30px 20px 20px 20px",
     },
     figures: {
         fontSize: 30,

@@ -1,6 +1,9 @@
 import { Box } from '@material-ui/core'
 import React from 'react'
+import DashboardLocationButton from '../DashboardLocationButton';
+import DashboardRevenueAndLink from '../DashboardRavenueAndLink/DashboardRevenueAndLink';
 import DashboardWallet from '../DashboardWallet';
+import RevenueGraph from '../RevenueGraph';
 import { useStyle } from './DashboardMenuLeft.style'
 
 const DashboardMenuLeft = () => {
@@ -8,9 +11,9 @@ const DashboardMenuLeft = () => {
   return (
     <Box className={classes.root}>
       <DashboardWallet />
-      <DashboardWallet />
-      <DashboardWallet />
-      <DashboardWallet />
+      <DashboardLocationButton />
+      <DashboardRevenueAndLink />
+      <RevenueGraph />
     </Box>
   )
 }

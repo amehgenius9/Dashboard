@@ -11,16 +11,16 @@ const SidebarFixed = () => {
 
   return (
     <Box className={classes.root}>
-    <Box className={classes.upperBtn}>
+        <Box className={classes.upperBtn}>
         {business.map(item => (
             <SidebarButton image={item?.icon} />
         ))}
-    </Box>
-    <Box className={classes.lowerBtn}>
+        </Box>
+        <Box className={classes.lowerBtn}>
         {business2.map(item => (
             <SidebarButton image={item?.icon} />
         ))}
-    </Box>
+        </Box>
       
     </Box>
   )

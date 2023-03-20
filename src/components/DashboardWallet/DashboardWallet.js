@@ -8,8 +8,8 @@ const DashboardWallet = () => {
   const classes = useStyle();
   return (
     <Box className={classes.root}>
-      <DashboardWalletStatus />
-      <DashboardWalletDetails description='your wallet & bank account' number='0123456789' bank='city bank' />
+      <DashboardWalletStatus className={classes.child1} />
+      <DashboardWalletDetails className={classes.child2} description='your wallet & bank account' number='0123456789' bank='city bank' />
     </Box>
   )
 }
