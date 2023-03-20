@@ -5,8 +5,7 @@ const navWidth = 250
 export const useStyle = makeStyles ({
     root: {
         width: navWidth,
-        // borderRight: "1px solid #E3E3E3",
-        // height: "100vh",
+        borderRight: "1px solid #E3E3E3",
         display: "flex",
         flexDirection: "row",
         height: "100vh",

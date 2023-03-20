@@ -4,7 +4,6 @@ export const useStyle = makeStyles ({
     root: {
         flex: 1,
         height: "100vh",
-        overflow: "hidden",
         overflowY: "scroll",
     },
 })

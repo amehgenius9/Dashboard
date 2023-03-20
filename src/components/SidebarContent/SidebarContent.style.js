@@ -11,11 +11,12 @@ export const useStyle = makeStyles ({
     },
     header: {
         fontSize: 11.2,
-        zIndex: .3,
         marginLeft: 10,
         marginBottom: 5,
         fontWeight: "bold",
-        color: "#B4B6BC"
+        color: "#B4B6BC",
+        zIndex: 100
+
     },
     topHeader: {
         height: 50,
@@ -28,6 +29,8 @@ export const useStyle = makeStyles ({
         marginLeft: "45px",
         borderBottom: "1px solid #E0E0E0",
         position: "fixed",
+        zIndex: 100,
+
         '&:hover': {
             backgroundColor: "#011B69",
             cursor: "pointer",
